@@ -10,5 +10,5 @@ extensions = [
 
 # -- Options for HTML output -------------------------------------------------
 
-html_theme = 'classic'  # 使用的主题，可以选择其他主题
+html_theme = 'sphinx_book_theme'  # 使用的主题，可以选择其他主题
 
