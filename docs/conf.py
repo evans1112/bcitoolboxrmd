@@ -1,4 +1,4 @@
-
+import sphinx_readable_theme
 project = 'BCI Toolbox'
 author = 'Evans'
 
@@ -11,5 +11,5 @@ extensions = [
 
 # -- Options for HTML output -------------------------------------------------
 
-html_theme = 'nature'  # 使用的主题，可以选择其他主题
-
+html_theme = 'readable'
+html_theme_path = [sphinx_readable_theme.get_html_theme_path()]
