@@ -1,3 +1,4 @@
+import sphinx_book_theme
 project = 'BCI Toolbox'
 author = 'Evans'
 
