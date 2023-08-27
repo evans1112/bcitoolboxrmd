@@ -8,6 +8,6 @@ To install our package, follow these steps:
 
    .. code-block:: bash
 
-      pip install my-python-package
+      pip install bcitoolbox
 
 3. You're ready to use the package.
