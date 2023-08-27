@@ -1,7 +1,7 @@
-Welcome to My Documentation
+BCI Toolbox: Bayesian Causal Inference Toolbox
 ===========================
 
-This is the introduction to my documentation.
+Here is the introduction to BCI Toolbox.
 You can start by reading the installation instructions.
 
 .. toctree::
