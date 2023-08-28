@@ -11,7 +11,7 @@ extensions = [
 
 # -- Options for HTML output -------------------------------------------------
 
-html_theme = ''
-html_css_files = ['_static/custom-material-style.css']
+html_theme = "agogo"
+
 
 
