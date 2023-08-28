@@ -9,3 +9,20 @@ You can start by reading the installation instructions.
 
    installation
    basic_usage/index
+
+**Contributors:**
+
+
+Haocheng Zhu
+
+evanszhu2001@gmail.com
+
+Dr. Ulrik R. Beierholm
+
+beierh@gmail.com
+
+Dr. Ladan Shams
+
+lshams@psych.ucla.edu
+
+If you have any inquiries or feedback, please don't hesitate to contact us. We will get back to you as soon as possible.
