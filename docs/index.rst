@@ -8,4 +8,4 @@ You can start by reading the installation instructions.
    :maxdepth: 2
 
    installation
-   basic_usage
+   basic_usage/index
