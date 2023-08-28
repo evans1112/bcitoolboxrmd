@@ -8,13 +8,4 @@ You can start by reading the installation instructions.
    :maxdepth: 2
 
    installation
-   usage
    basic_usage
-
-BCI Toolbox: Basic usage
-------------------------
-
-.. toctree::
-   :maxdepth: 2
-
-   gui/index
