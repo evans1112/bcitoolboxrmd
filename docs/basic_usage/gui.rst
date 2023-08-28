@@ -35,6 +35,15 @@ The selected files containing behavioral data must be .csv files and need to be 
 
 (True number of stimuli from modality U)	(True number of stimuli from modality D)	(Reported number of stimuli from modality U)	(Reported number of stimuli from modality D)
 ...	...	...	...
+.. table:: Sample Table
+   :widths: 30 30 30 30
+
+   +------+------+------+------+
+   | (True number of stimuli from modality U) | (True number of stimuli from modality D) |(Reported number of stimuli from modality U) |(Reported number of stimuli from modality D) |
+   +------+------+------+------+
+   | ...| ...| ...| ...|
+   +------+------+------+------+
+
 
 2. Number of simulations
 
@@ -46,8 +55,11 @@ The BCI toolbox provides three fit types, which is also how errors are
 calculated:
 
 *mll*: Minus log likelihood
+
 *mr2*: Minus R square
+
 *sse*: Sum of Squares for Errors
+
 
 Users can select any one of it depending on specific condition.
 
