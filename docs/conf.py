@@ -11,6 +11,6 @@ extensions = [
 
 # -- Options for HTML output -------------------------------------------------
 
-html_theme = "stanford_theme"  # 将主题改为 sphinx_material
+html_theme = "haiku"  # 将主题改为 sphinx_material
 
 
