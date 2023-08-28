@@ -1,3 +1,8 @@
 version: 2
+
 sphinx:
   configuration: docs/conf.py
+  builder: html
+
+build:
+  os: ubuntu-20.04  # 指定操作系统环境，这里使用了Ubuntu 20.04
