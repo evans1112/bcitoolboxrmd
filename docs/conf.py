@@ -11,7 +11,7 @@ extensions = [
 
 # -- Options for HTML output -------------------------------------------------
 
-html_theme = "agogo"
+html_theme = "alabaster"
 
 
 
