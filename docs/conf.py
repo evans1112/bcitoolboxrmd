@@ -11,5 +11,5 @@ extensions = [
 
 # -- Options for HTML output -------------------------------------------------
 
-html_theme = 'agogo'
+html_theme = "sphinx_rtd_theme"
 
