@@ -4,6 +4,7 @@ BCI Toolbox: Bayesian Causal Inference Toolbox
 .. image:: _static/BCI.jpg
    :align: center
    :alt: Your logo
+   :width: 50%
 
 Here is the introduction to BCI Toolbox.
 You can start by reading the installation instructions.
