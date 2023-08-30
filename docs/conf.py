@@ -14,7 +14,7 @@ extensions = [
 html_theme = "alabaster"
 
 
-html_logo = '_static/BCI.png'
+html_logo = '_static/BCI.jpg'
 
 
 
