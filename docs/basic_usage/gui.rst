@@ -1,15 +1,15 @@
 Graphical User Interface (GUI)
 =============
 
-.. tabs::
+**Table of Contents:**
 
-   .. tab:: Import and call
-      :ref:`I_C`
+- :ref:`Model Fitting`
+- :ref:`Sensory Simulation`
 
-   .. tab:: Fitting module
-      :ref:`F_M`
-
-.. _I_C:
+Model Fitting
+=============
+   
+This is the content related to model fitting.
 
 **Import and call**
 
@@ -115,6 +115,11 @@ Users can click save to save all fitting figures to folder.
 9. Main Page
 
 Go back to main page.
+
+Sensory Simulation
+==================
+
+This is the content related to sensory simulation.
 
 
 
