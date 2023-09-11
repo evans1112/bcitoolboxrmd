@@ -3,15 +3,14 @@ Graphical User Interface (GUI)
 
 **Table of Contents:**
 
+- :ref:`Import and Call`
 - :ref:`Model Fitting`
 - :ref:`Sensory Simulation`
 
-Model Fitting
-=============
-   
-This is the content related to model fitting.
 
-**Import and call**
+
+Import and Call
+===============
 
 .. code-block:: bash
 
@@ -21,9 +20,10 @@ This is the content related to model fitting.
 
       btb.gui()
 
-.. _F_M:
 
-**Fitting module**
+Model Fitting
+=============
+
 
 .. image:: image.gif
 
