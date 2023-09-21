@@ -3,6 +3,11 @@ API:
 
 Here is the detailed information about API in the BCI Toolbox.
 
+- :ref:`Simulation`
+- :ref:`Fitting`
+- :ref:`Visualization`
+
+
 .. module:: my_module
    :synopsis: This module provides utilities for data processing.
 
