@@ -1,10 +1,10 @@
 Simulation
 ~~~~~~~~~~
 
-.. module:: my_module
+.. module:: BCIbox
    :synopsis: This module provides utilities for data processing.
 
-.. autofunction:: my_module
+.. autofunction:: BCIbox.simulateVV
 
    :param data: The input data to be processed.
    :type data: list
