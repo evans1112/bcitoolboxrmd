@@ -14,7 +14,7 @@ You can start by reading the installation instructions.
 
    installation
    basic_usage/index
-   API/API
+   API/index
 
 **Contributors:**
 
