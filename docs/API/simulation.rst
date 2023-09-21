@@ -16,14 +16,15 @@ Simulation
    This function processes input data by applying a specified operation.
 
 
-Function `simulateVV` from BCIbox Module
+`btb.simulateVV (parameters, n_simulation, behavior_data, biOnly = True, strategy = 'ave' , fit_type = 'mll')` 
 -----------------------------------------
 
-:param data: The input data to be processed.
-:type data: list
-:param operation: The operation to apply to the data (e.g., 'sum', 'average').
-:type operation: str
-:returns: The result of the data processing.
-:rtype: float
+:parameters: `array, float` An array, [pcommon, sigmaU, sigmaD [, sigmap, mup, sU, sD]].
+:n_simulation: `int` Number of simulations for each condition.
+:behavior_data: `array, int`  A n*4 array, see below for details:
 
-This function processes input data by applying a specified operation.
+:biOnly: `bool, optional`  If True use only bisensory conditions to calculate errors. It finds a solution that combines stability and recency, by default True. If False use all conditions to calculate errors.
+:Strategy: `string, optional` ‘ave’ for model averaging; ‘sel’ for model selection; ‘mat’ for probability matching ; Default: ‘ave’
+
+:fit_type: `string, optional`  ‘mll’ for minus log likelihood; ‘mr2’ for minus R square; ‘sse’ for sum of squares for errors; Default: ‘mll’
+
