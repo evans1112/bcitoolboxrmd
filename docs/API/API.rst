@@ -1,5 +1,5 @@
-API:
-========================
+API
+===
 
 Here is the detailed information about API in the BCI Toolbox.
 
@@ -7,5 +7,4 @@ Here is the detailed information about API in the BCI Toolbox.
    :maxdepth: 2
 
    simulation
-   fitting
-   visualization
+   
