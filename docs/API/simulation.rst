@@ -2,7 +2,7 @@ Simulation
 ~~~~~~~~~~
 
 
-`btb.simulateVV (parameters, n_simulation, behavior_data, biOnly = True, strategy = 'ave' , fit_type = 'mll')` 
+`btb.simulateVV` (parameters, n_simulation, behavior_data, biOnly = True, strategy = 'ave' , fit_type = 'mll')
 -----------------------------------------
 
 Inputs:
@@ -24,6 +24,6 @@ Returns:
 
 
 
-`btb.fit (n_parameters, n_simulation, behavior_data, n_seeds = 1, bounds = [(0, 1),(0.1, 3),(0.1, 3),(0.1,3),(0, 3.5)], biOnly = 1, strategies = ['ave'], fittype = 'mll')` 
+`btb.fit` (n_parameters, n_simulation, behavior_data, n_seeds = 1, bounds = [(0, 1),(0.1, 3),(0.1, 3),(0.1,3),(0, 3.5)], biOnly = 1, strategies = ['ave'], fittype = 'mll')
 -----------------------------------------
 
