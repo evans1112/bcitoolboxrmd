@@ -94,6 +94,7 @@ Users can set the target estimated parameters and set their ranges.
 
 *sD*: A constant added to the mean of the Gaussian distribution for the likelihood for modality Down.
 
+.. image:: parameters_ibterface.png
 
 6. Run
 
@@ -120,7 +121,7 @@ Sensory Simulation
 ==================
 
 This is the content related to sensory simulation.
-
+.. image:: sensory_simu.png
 
 
 
