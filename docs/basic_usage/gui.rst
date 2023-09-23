@@ -66,11 +66,11 @@ Users can select any one of it depending on specific condition.
 The BCI toolbox provides three different decision strategies:
 
 
-Averaging: model averaging
+*Model Averaging*:Model averaging is when the observer weights the estimates of the stimulus locations by the inferred probabilities of their causal structure. Considered the most optimal strategy. See equation 15 in Wozny and Shams (2011).
 
-Selecting: model selection
+*Model Selection*: Model selection is when the observer selects the most likely causal structure and estimates the stimulus location wholly on the basis of the selected model. See equation 16 in Wozny and Shams (2011).
 
-Matching: probability matching
+*Probability Matching*: Probability matching is a strategy that choses the estimates from either causal structure based on their inferred probabilities. Although this method is suboptimal, it appears to be the most frequently used in cognitive tasks. See equation 17 in Wozny and Shams (2011).
 
 Users need to select at least one strategy for fitting. If selected strategies are more than one, the toolbox will automatically compare the results of each fit and output the optimal result.
 
@@ -94,7 +94,8 @@ Users can set the target estimated parameters and set their ranges.
 
 *sD*: A constant added to the mean of the Gaussian distribution for the likelihood for modality Down.
 
-.. image:: parameters_ibterface.png
+
+.. image:: parameters_interface.tif
 
 6. Run
 
@@ -121,7 +122,58 @@ Sensory Simulation
 ==================
 
 This is the content related to sensory simulation.
-.. image:: sensory_simu.png
+
+.. image:: sensory_simu.tif
+
+1. Parameters
+
+*pcommon*: The prior probability that both sensory information can be attributed to one cause.
+
+*sigmaU*: The standard deviation of the Gaussian distribution of the likelihood for modality Up.
+
+*sigmaD*: The standard deviation of the Gaussian distribution of the likelihood for modality Down.
+
+*sigmap*: The standard deviation of the Gaussian distribution of the prior.
+
+*mup*: The mean of the Gaussian distribution of the prior.
+
+2. Stimuli
+
+Users can set the true stimuli.
+
+
+3. Elements
+
+*Response Distribution*: Display the outputs of response distribution based on the prior and likelihood.
+
+*Stimulus Encoding*: Display the likelihoods of stimulus encoding.
+
+*Prior Distribution*: Display the distribution of prior expectation on the stimuli.
+
+4. Strategies
+
+*Model Averaging*:Model averaging is when the observer weights the estimates of the stimulus locations by the inferred probabilities of their causal structure. Considered the most optimal strategy. See equation 15 in Wozny and Shams (2011).
+
+*Model Selection*: Model selection is when the observer selects the most likely causal structure and estimates the stimulus location wholly on the basis of the selected model. See equation 16 in Wozny and Shams (2011).
+
+*Probability Matching*: Probability matching is a strategy that choses the estimates from either causal structure based on their inferred probabilities. Although this method is suboptimal, it appears to be the most frequently used in cognitive tasks. See equation 17 in Wozny and Shams (2011).
+
+5. Estimates
+
+*Peak*: Value indicated by red and blue diamonds.
+
+*Mean*: Value indicated by red and blue circles.
+
+*Display Value*:Display the value of the model estimate of probability on the figure.
+
+6. Simulate
+
+Click the button to generate the simulated results.
+
+7. Save the simulated data
+
+Click the button to save the simulated numerical data.
+
 
 
 
