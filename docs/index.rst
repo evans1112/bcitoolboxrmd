@@ -14,6 +14,8 @@ You can start by reading the installation instructions.
 
    installation
    basic_usage/index
+   modelfit/index
+   modelsimu/index
    API/index
 
 **Contributors:**
