@@ -2,7 +2,7 @@ Graphical User Interface (GUI): Introduction
 =============
 
 Import and Call
-===============
+------
 
 .. code-block:: bash
 
@@ -13,8 +13,8 @@ Import and Call
       btb.gui()
 
 
-Model Fitting
-=============
+.. _Model Fitting: https://bci-toolbox.readthedocs.io/en/latest/modelfit/index.html
+------------------------
 
 The BCI Toolbox provides a variety of model fitting options, including **discrete data fitting** and **continuous data fitting**. It is structured to accommodate various stages of data analysis, from initial import to final visualization. 
 
@@ -27,7 +27,7 @@ The BCI Toolbox provides a variety of model fitting options, including **discret
 3. *Visualization*: Post-analysis, the interface offers robust visualization tools. Users can generate graphs and charts to better understand the fitted data.
 
 Model Simulation
-==================
+----
 
 The BCI Toolbox allows users to engage in detailed simulations based on various model parameters, offering a comprehensive and interactive experience in understanding and analyzing sensory information. It provides a variety of options, including **1-D continuous simulation**, **2-D continuous simulation**, **discrete simulation** and other simulations for specific tasks.
 
