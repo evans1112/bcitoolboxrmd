@@ -15,6 +15,6 @@ Navigate
 Details 
 --------
 
-.. image:: other.gif
+.. image:: other.tif
 
 1. Import / Open file
