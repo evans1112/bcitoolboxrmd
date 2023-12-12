@@ -1,10 +1,9 @@
 Discrete Fitting
 ~~~~~~~~~~
 
-Discrete Fitting
------------------------------------------
 
-.. image:: disc.tif
+
+.. image:: discfit.tif
 
 1. Import / Open file
 
@@ -14,7 +13,7 @@ The selected files containing behavioral data must be .csv files and need to be 
 
 
 +-----------------------+-----------------------+---------------------------+---------------------------+ 
-|True sti from modalityU|True sti from modalityD|Reported sti from modalityU|Reported sti from modalityD| 
+|True sti of modalityU  |True sti of modalityD  |Reported sti of modalityU  |Reported sti of modalityD  | 
 +-----------------------+-----------------------+---------------------------+---------------------------+
 |             ...       |...                    | ...                       | ...                       |
 +-----------------------+-----------------------+---------------------------+---------------------------+
@@ -22,11 +21,11 @@ The selected files containing behavioral data must be .csv files and need to be 
 
 2. Number of simulations
 
-Number of samples for the probability distribution for each case. Users can choose 1000 for testing and 10000 for final publication.
+Number of samples for the probability distribution for each case. Users can set 1000 for testing and 10000 for final publication.
 
 3. Fit type
 
-The BCI toolbox provides three fit types, which is also how errors are 
+The BCI toolbox provides several fit types, which is also how error (cost) is 
 calculated:
 
 
