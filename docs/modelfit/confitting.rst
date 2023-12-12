@@ -1,18 +1,18 @@
 Continuous Fitting
 ~~~~~~~~~~
 
-Introduction: 
+Introduction
 --------
 
 When researcher asks subjects to report freely on the characteristics of sensory stimuli without setting relevant discrete judgmental positions, a continuous fitting should be used.
 
-Navigate: 
+Navigate
 --------
 
 **Main Menu** ---> **Model Fitting** ---> **Fitting for Discrete Data**
 
 
-Details: 
+Details
 --------
 
 .. image:: discfit.tif
