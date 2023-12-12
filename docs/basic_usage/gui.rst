@@ -26,7 +26,7 @@ The BCI Toolbox provides a variety of model fitting options, including **discret
 
 3. *Visualization*: Post-analysis, the interface offers robust visualization tools. Users can generate graphs and charts to better understand the fitted data.
 
-Model Simulation
+`Model Simulation <https://bci-toolbox.readthedocs.io/en/latest/modelsimu/index.html>`_
 ----
 
 The BCI Toolbox allows users to engage in detailed simulations based on various model parameters, offering a comprehensive and interactive experience in understanding and analyzing sensory information. It provides a variety of options, including **1-D continuous simulation**, **2-D continuous simulation**, **discrete simulation** and other simulations for specific tasks.
