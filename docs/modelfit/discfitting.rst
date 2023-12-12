@@ -4,7 +4,7 @@ Discrete Fitting
 Discrete Fitting
 -----------------------------------------
 
-.. image:: image.gif
+.. image:: disc.tif
 
 1. Import / Open file
 
