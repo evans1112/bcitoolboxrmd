@@ -1,8 +1,20 @@
+
 One-Dimensional Continuous Simulation
 ~~~~~~~~~~
 
-One-Dimensional Continuous Simulation
------------------------------------------
+Introduction
+--------
+
+Users can use this function for one dimensional (**temporal** / **spatial** / **numerosity**) continuous simulation based on the BCI model.
+
+Navigate
+--------
+
+
+Details
+--------
+
+**Main Menu** ---> **Model Simulation** ---> **Simulating for 1-D Continuous Condition**
 
 .. image:: sensory_simu.tif
 
