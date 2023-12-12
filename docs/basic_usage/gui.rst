@@ -13,7 +13,7 @@ Import and Call
       btb.gui()
 
 
-.. _Model Fitting: https://bci-toolbox.readthedocs.io/en/latest/modelfit/index.html
+`Model Fitting <https://bci-toolbox.readthedocs.io/en/latest/modelfit/index.html>`_
 ------------------------
 
 The BCI Toolbox provides a variety of model fitting options, including **discrete data fitting** and **continuous data fitting**. It is structured to accommodate various stages of data analysis, from initial import to final visualization. 
