@@ -33,7 +33,7 @@ Details
 
 3/4. **Stimuli for each dimension**
 
- Users can set the true stimuli.
+Users can set the true stimuli.
 
 |
 
@@ -70,10 +70,10 @@ Details
 
 **Simulate**
 
- Click the button to generate the simulated results.
+Click the button to generate the simulated results.
 
 |
 
 **Save the simulated data**
 
- Click the button to save the simulated numerical data.
+Click the button to save the simulated numerical data.
