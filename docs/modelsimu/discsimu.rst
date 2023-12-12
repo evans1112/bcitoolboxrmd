@@ -73,3 +73,6 @@ Click the button to generate the simulated results.
 |
 
 7. **Save the simulated data**
+
+
+Click the button to save the simulated numerical data.
