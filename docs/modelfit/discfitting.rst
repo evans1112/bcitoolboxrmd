@@ -1,7 +1,19 @@
 Discrete Fitting
 ~~~~~~~~~~
 
+Introduction: 
+------------
 When researcher asks subjects to report the characteristics of sensory stimuli with setting relevant discrete judgmental positions, rather than reporting them freely, a discrete fitting should be used.
+
+
+Navigate: 
+--------
+
+**Main Menu** ---> **Model Fitting** ---> **Fitting for Discrete Data**
+
+
+Details: 
+--------
 
 .. image:: discfit.tif
 
