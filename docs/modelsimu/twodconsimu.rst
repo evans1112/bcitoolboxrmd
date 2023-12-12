@@ -1,12 +1,23 @@
 Two-Dimensional Continuous Simulation
 ~~~~~~~~~~
 
-Two-Dimensional Continuous Simulation
------------------------------------------
+Introduction
+--------
 
-.. image:: sensory_simu.tif
+Users can use this function for two dimensional (**temporal** / **spatial** / **numerosity**) continuous simulation based on the BCI model.
 
-1. Parameters
+Navigate
+--------
+
+**Main Menu** ---> **Model Simulation** ---> **Simulating for w-D Continuous Condition**
+
+Details
+--------
+
+
+.. image:: 2Dsimu.tif
+
+1/2. **Parameters for each dimension**
 
 *pcommon*: The prior probability that both sensory information can be attributed to one cause.
 
@@ -18,12 +29,15 @@ Two-Dimensional Continuous Simulation
 
 *mup*: The mean of the Gaussian distribution of the prior.
 
-2. Stimuli
+|
+
+3/4. **Stimuli for each dimension**
 
 Users can set the true stimuli.
 
+|
 
-3. Elements
+5. **Elements**
 
 *Response Distribution*: Display the outputs of response distribution based on the prior and likelihood.
 
@@ -31,7 +45,10 @@ Users can set the true stimuli.
 
 *Prior Distribution*: Display the distribution of prior expectation on the stimuli.
 
-4. Strategies
+|
+
+
+6. **Strategies**
 
 *Model Averaging*:Model averaging is when the observer weights the estimates of the stimulus locations by the inferred probabilities of their causal structure. Considered the most optimal strategy. See equation 15 in Wozny and Shams (2011).
 
@@ -39,7 +56,9 @@ Users can set the true stimuli.
 
 *Probability Matching*: Probability matching is a strategy that choses the estimates from either causal structure based on their inferred probabilities. Although this method is suboptimal, it appears to be the most frequently used in cognitive tasks. See equation 17 in Wozny and Shams (2011).
 
-5. Estimates
+|
+
+7. **Estimates**
 
 *Peak*: Value indicated by red and blue diamonds.
 
@@ -47,10 +66,14 @@ Users can set the true stimuli.
 
 *Display Value*:Display the value of the model estimate of probability on the figure.
 
-6. Simulate
+|
+
+**Simulate**
 
 Click the button to generate the simulated results.
 
-7. Save the simulated data
+|
+
+**Save the simulated data**
 
 Click the button to save the simulated numerical data.
