@@ -1,14 +1,6 @@
 Graphical User Interface (GUI): Introduction
 =============
 
-**Table of Contents:**
-
-
-- :ref:`Import and Call`
-- :ref:`Model Fitting`
-- :ref:`Model Simulation`
-
-
 Import and Call
 ===============
 
