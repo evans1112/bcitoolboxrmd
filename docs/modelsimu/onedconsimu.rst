@@ -33,7 +33,7 @@ Details
 
 2. **Stimuli**
 
- Users can set the true stimuli.
+Users can set the true stimuli.
 
 |
 
@@ -69,10 +69,10 @@ Details
 
 6. **Simulate**
 
- Click the button to generate the simulated results.
+Click the button to generate the simulated results.
 
 |
 
 7. **Save the simulated data**
 
- Click the button to save the simulated numerical data.
+Click the button to save the simulated numerical data.
