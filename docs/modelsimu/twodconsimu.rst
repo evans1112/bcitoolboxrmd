@@ -9,7 +9,7 @@ Users can use this function for two dimensional (**temporal** / **spatial** / **
 Navigate
 --------
 
-**Main Menu** ---> **Model Simulation** ---> **Simulating for w-D Continuous Condition**
+**Main Menu** ---> **Model Simulation** ---> **Simulating for 2-D Continuous Condition**
 
 Details
 --------
