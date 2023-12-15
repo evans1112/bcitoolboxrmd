@@ -15,7 +15,7 @@ Navigate
 Details
 --------
 
-.. image:: discfit.tif
+.. image:: confit.tif
 
 1. **Import / Open file**
 
@@ -46,9 +46,10 @@ calculated:
 
  **mll**: Minus log likelihood
 
+ **emd**: Earth mover's distance/Wasserstein distance
+
  **mr2**: Minus R square
 
- **sse**: Sum of Squares for Errors
 
 
 Users can select any one of it depending on specific condition.
