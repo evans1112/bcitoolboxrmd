@@ -21,9 +21,9 @@ Details
 
  **pcommon**: The prior probability that both sensory information can be attributed to one cause.
 
- **sigmaU**: The standard deviation of the Gaussian distribution of the likelihood for modality Up.
+ **sigma 1**: The standard deviation of the Gaussian distribution of the likelihood for modality 1.
 
- **sigmaD**: The standard deviation of the Gaussian distribution of the likelihood for modality Down.
+ **sigma 2**: The standard deviation of the Gaussian distribution of the likelihood for modality 2.
 
  **sigmap**: The standard deviation of the Gaussian distribution of the prior.
 
