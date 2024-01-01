@@ -25,7 +25,7 @@ Users can upload single or multiple files simultaneously via either *Import* or 
 
 
  +-----------------------+-----------------------+---------------------------+---------------------------+ 
- |True sti of modalityU  |True sti of modalityD  |Reported sti of modalityU  |Reported sti of modalityD  | 
+ |True sti of modality 1 |True sti of modality 2 |Reported sti of modality 1 |Reported sti of modality 2 | 
  +-----------------------+-----------------------+---------------------------+---------------------------+
  |             ...       |...                    | ...                       | ...                       |
  +-----------------------+-----------------------+---------------------------+---------------------------+
@@ -77,17 +77,17 @@ Users can set the target estimated parameters and set their ranges.
 
  **pcommon**: The prior probability that both sensory information can be attributed to one cause.
 
- **sigmaU**: The standard deviation of the Gaussian distribution of the likelihood for modality Up.
+ **sigma 1**: The standard deviation of the Gaussian distribution of the likelihood for modality 1.
 
- **sigmaD**: The standard deviation of the Gaussian distribution of the likelihood for modality Down.
+ **sigma 2**: The standard deviation of the Gaussian distribution of the likelihood for modality 2.
 
  **sigmap**: The standard deviation of the Gaussian distribution of the prior.
 
  **mup**: The mean of the Gaussian distribution of the prior.
 
- **sU**: A constant added to the mean of the Gaussian distribution for the likelihood for modality Up.
+ **s1**: A constant added to the mean of the Gaussian distribution for the likelihood for modality 1.
 
- **sD**: A constant added to the mean of the Gaussian distribution for the likelihood for modality Down.
+ **s2**: A constant added to the mean of the Gaussian distribution for the likelihood for modality 2.
 
 
 .. image:: parameters_interface.tif
