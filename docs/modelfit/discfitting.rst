@@ -118,4 +118,8 @@ Go back to main page.
 
 
 
+Examples
+--------
+
+We shared some test dataset on Github (https://github.com/evans1112/bcitoolbox/tree/main/test_dataset/discrete). Users could download the file and use it to test in the BCI Toolbox.
 
