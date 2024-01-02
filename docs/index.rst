@@ -49,10 +49,10 @@ BCI Toolbox: Bayesian Causal Inference Toolbox
    :target: https://www.debian.org/releases/buster/
 
 
-BCI Toolbox is a statistical and analytical tool in python, which can help researchers perform quantitative modeling and analysis for behavioral data. The present BCI toolbox offers a robust platform for BCI model implementation, facilitating its widespread use and enabling researchers to delve into the data to uncover underlying cognitive mechanisms.
+BCI Toolbox is a statistical and analytical tool in python, which can help researchers perform quantitative modeling and analysis for behavioral data based on BCI model. The present BCI toolbox offers a robust platform for BCI model implementation, facilitating its widespread use and enabling researchers to delve into the data to uncover underlying cognitive mechanisms.
 
 Here is the introduction to BCI Toolbox.
-You can start by reading the installation instructions.
+Users can start by reading the installation instructions.
 
 
 .. toctree::
