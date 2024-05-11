@@ -106,15 +106,17 @@ Users can click plot to get the fitting result they want for a particular piece 
 
 |
 
-8. **Figure Save**
+8. **RDM**
 
-Users can click save to save all fitting figures to folder. 
+Users can click to get the Representational Dissimilarity Matrix (RDM) they want for a particular piece of data.
 
 |
 
-9. **Main Page**
+9. **Figure Save**
 
-Go back to main page.
+Users can click save to save all fitting figures to folder. 
+|
+
 
 
 
