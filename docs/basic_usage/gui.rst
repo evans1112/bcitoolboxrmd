@@ -26,6 +26,8 @@ The BCI Toolbox provides a variety of model fitting options, including **discret
 
 3. *Visualization*: Post-analysis, the interface offers robust visualization tools. Users can generate graphs and charts to better understand the fitted data.
 
+4. *RDM*: Post-analysis, the interface offers robust visualization tools. Users can generate model's RDMs based on the fitting results.
+
 `Model Simulation <https://bci-toolbox.readthedocs.io/en/latest/modelsimu/index.html>`_
 ----
 
