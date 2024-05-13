@@ -30,7 +30,12 @@ Users can upload single or multiple files simultaneously via either *Import* or 
  |             ...       |...                    | ...                       | ...                       |
  +-----------------------+-----------------------+---------------------------+---------------------------+
 
+The toolbox supports uploading partial data, for example in audiovisual studies where participants are only asked to report the visual component. In this case, please place the reported data in the third column with the modality aligned with the first column.
+
+Please note that, partial fits may have uncertain effects on parameters (especially those of modality without data) and should be used with caution.
+
 |
+
 
 2. **Number of simulations**
 
