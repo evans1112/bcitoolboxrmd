@@ -114,7 +114,7 @@ Users can click to get the Representational Dissimilarity Matrix (RDM) they want
 
 9. **Figure Save**
 
-Users can click save to save all fitting figures to folder. 
+Users can click save to save all fitting figures or RDMs to folder. 
 |
 
 
