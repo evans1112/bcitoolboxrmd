@@ -109,7 +109,7 @@ Users can click plot to get the fitting result they want for a particular piece 
 
 8. **Figure Save**
 
-Users can click save to save all fitting figures to folder. 
+Users can click save to save all fitting figures or RDMs to folder. 
 
 |
 
