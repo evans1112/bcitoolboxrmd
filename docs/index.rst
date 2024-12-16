@@ -64,6 +64,9 @@ Users can start by reading the installation instructions.
    modelsimu/index
    API/index
 
+**Please Cite:**
+Zhu, H., Beierholm, U., & Shams, L. (2024). BCI Toolbox: An open-source python package for the Bayesian causal inference model. PLoS Computational Biology, 20(7), e1011791. https://doi.org/10.1371/journal.pcbi.1011791
+
 **Contributors:**
 
 
