@@ -1,25 +1,30 @@
 Continuous Fitting
-~~~~~~~~~~
+==================
 
 Introduction
---------
+------------
 
-When researcher asks subjects to report freely on the characteristics of sensory stimuli without setting relevant discrete judgmental positions, a continuous fitting should be used.
+Use continuous fitting when participants report freely on a continuous
+stimulus scale rather than selecting one of several predefined response
+categories. Typical examples include spatial localization, temporal estimates,
+or other perceptual reports measured on a continuous axis.
 
 Navigate
 --------
 
-**Main Menu** ---> **Model Fitting** ---> **Fitting for Discrete Data**
+**Main Menu** ---> **Model Fitting** ---> **Fitting for Continuous Data**
 
 
 Details
---------
+-------
 
 .. image:: confit.tif
 
 1. **Import / Open file**
 
-Users can upload single or multiple files simultaneously via either *Import* or *Open file*. Users can also add the file paths to the entry box and click *Import* to upload.
+Users can upload one or more CSV files through *Import* or *Open file*. Batch
+selection is recommended when the same model configuration will be applied to
+multiple participants or sessions.
 
  The selected files containing behavioral data must be .csv files and need to be in the following format:
 
@@ -52,7 +57,8 @@ calculated:
 
 
 
-Users can select any one of it depending on specific condition.
+Choose the objective that best matches the scientific goal and response
+format.
 
 |
 
@@ -67,7 +73,8 @@ The BCI toolbox provides three different decision strategies:
 
  **Probability Matching**: Probability matching is a strategy that choses the estimates from either causal structure based on their inferred probabilities. Although this method is suboptimal, it appears to be the most frequently used in cognitive tasks. See equation 17 in Wozny and Shams (2011).
 
-Users need to select at least one strategy for fitting. If selected strategies are more than one, the toolbox will automatically compare the results of each fit and output the optimal result.
+Select at least one strategy. If more than one strategy is selected, the
+toolbox fits each strategy and reports the best-fitting result.
 
 |
 
@@ -95,7 +102,9 @@ Users can set the target estimated parameters and set their ranges.
 
 6. **Run**
 
-Users can click run after the above steps and wait for the final results. The running status will be always updated on the page.
+After reviewing the data, objective, strategy, and parameter bounds, click
+*Run* and wait for the fitting process to finish. The status panel updates
+during optimization.
 
 After the fitting is complete, the results of it will be presented in a new window. The user can browse the fitting results and click save to save the results as a .txt file.
 
@@ -103,7 +112,8 @@ After the fitting is complete, the results of it will be presented in a new wind
 
 7. **Plot**
 
-Users can click plot to get the fitting result they want for a particular piece of data.
+Use *Plot* to inspect the model prediction against behavioral data for a
+selected dataset.
 
 |
 
@@ -120,4 +130,5 @@ Go back to main page.
 Examples
 --------
 
-We shared some test dataset on Github (https://github.com/evans1112/bcitoolbox/tree/main/test_dataset/continuous). Users could download the file and use it to test in the BCI Toolbox.
+Example datasets are available on GitHub:
+https://github.com/evans1112/bcitoolbox/tree/main/test_dataset/continuous

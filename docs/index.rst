@@ -1,62 +1,52 @@
-BCI Toolbox: Bayesian Causal Inference Toolbox
-==============================================
+BCI Toolbox
+===========
 
-.. image:: _static/BCI.jpg
+.. image:: _static/BCI.png
    :align: center
-   :alt: Your logo
-   :width: 70%
+   :alt: BCI Toolbox logo
+   :width: 55%
 
+.. raw:: html
 
+   <div class="hero-panel">
+     <p class="hero-kicker">Bayesian Causal Inference for multisensory research</p>
+     <p class="hero-copy">
+       BCI Toolbox is a Python package and graphical workflow for fitting,
+       simulating, visualizing, and exporting Bayesian causal inference models
+       for behavioral data. It is designed for researchers who want a
+       reproducible model pipeline without writing custom analysis code for
+       every experiment.
+     </p>
+   </div>
 
-.. image:: https://img.shields.io/badge/python-3.6-blue
-   :alt: Python 3.6
-   :target: https://www.python.org/downloads/release/python-360/
+.. image:: https://img.shields.io/badge/python-3.6%2B-blue
+   :alt: Python 3.6+
 
-.. image:: https://img.shields.io/badge/python-3.7-blue
-   :alt: Python 3.7
-   :target: https://www.python.org/downloads/release/python-370/
+.. image:: https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-informational
+   :alt: Cross-platform
 
-.. image:: https://img.shields.io/badge/python-3.8-blue
-   :alt: Python 3.8
-   :target: https://www.python.org/downloads/release/python-380/
+.. image:: https://img.shields.io/badge/interface-GUI%20%2B%20Python%20API-success
+   :alt: GUI and API
 
-.. image:: https://img.shields.io/badge/python-3.9-blue
-   :alt: Python 3.9
-   :target: https://www.python.org/downloads/release/python-390/
+What You Can Do
+---------------
 
-.. image:: https://img.shields.io/badge/python-3.10-blue
-   :alt: Python 3.10
-   :target: https://www.python.org/downloads/release/python-390/
+* Fit behavioral datasets with discrete or continuous responses.
+* Compare model-averaging, model-selection, and probability-matching decision strategies.
+* Simulate one-dimensional and two-dimensional BCI predictions.
+* Use the graphical interface for import, fitting, plotting, and export.
+* Use the Python API for reproducible scripts and advanced workflows.
 
-.. image:: https://img.shields.io/badge/Windows-10-blue
-   :alt: Windows 10
-   :target: https://www.microsoft.com/windows/windows-10
+Recommended Reading Path
+------------------------
 
-.. image:: https://img.shields.io/badge/macOS-Catalina-red
-   :alt: macOS Catalina
-   :target: https://www.apple.com/macos/catalina/
-
-.. image:: https://img.shields.io/badge/Ubuntu-18.04-orange
-   :alt: Ubuntu 18.04
-   :target: https://releases.ubuntu.com/18.04/
-
-.. image:: https://img.shields.io/badge/Fedora-30-blue
-   :alt: Fedora 30
-   :target: https://getfedora.org/
-
-.. image:: https://img.shields.io/badge/Debian-10-yellow
-   :alt: Debian 10
-   :target: https://www.debian.org/releases/buster/
-
-
-BCI Toolbox is a statistical and analytical tool in python, which can help researchers perform quantitative modeling and analysis for behavioral data based on BCI model. The present BCI toolbox offers a robust platform for BCI model implementation, facilitating its widespread use and enabling researchers to delve into the data to uncover underlying cognitive mechanisms.
-
-Here is the introduction to BCI Toolbox.
-Users can start by reading the installation instructions.
-
+Start with :doc:`installation`, then open :doc:`basic_usage/gui` for the
+standard GUI. If your experiment contains two task dimensions, such as
+numerosity and time, continue with :doc:`basic_usage/gui2d`.
 
 .. toctree::
    :maxdepth: 2
+   :caption: User Guide
 
    installation
    basic_usage/index
@@ -64,22 +54,24 @@ Users can start by reading the installation instructions.
    modelsimu/index
    API/index
 
-**Please Cite:**
-Zhu, H., Beierholm, U., & Shams, L. (2024). BCI Toolbox: An open-source python package for the Bayesian causal inference model. PLoS Computational Biology, 20(7), e1011791. https://doi.org/10.1371/journal.pcbi.1011791
+Citation
+--------
 
-**Contributors:**
+If BCI Toolbox supports your work, please cite:
 
+Zhu, H., Beierholm, U., & Shams, L. (2024). BCI Toolbox: An open-source
+python package for the Bayesian causal inference model. PLOS Computational
+Biology, 20(7), e1011791. https://doi.org/10.1371/journal.pcbi.1011791
 
-Haocheng Zhu
+For the 2D BCI module, please also cite:
 
-evanszhu2001@gmail.com
+Zhu, H., Zhang, Y., Beierholm, U., & Shams, L. (2026). Crossmodal interaction
+of flashes and beeps across time and number follows Bayesian causal inference.
+Psychonomic Bulletin & Review, 33, 58. https://doi.org/10.3758/s13423-026-02857-z
 
-Dr. Ulrik R. Beierholm
+Contributors
+------------
 
-beierh@gmail.com
+Haocheng Zhu, Dr. Ulrik R. Beierholm, and Dr. Ladan Shams.
 
-Dr. Ladan Shams
-
-lshams@psych.ucla.edu
-
-If you have any inquiries or feedback, please don't hesitate to contact us. We will get back to you as soon as possible.
+Questions and feedback are welcome at evanszhu2001@gmail.com.

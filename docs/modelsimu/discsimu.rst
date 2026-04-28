@@ -1,8 +1,8 @@
 Discrete Simulation
-~~~~~~~~~~
+===================
 
 Introduction
---------
+------------
 
 Users can use this function for Discrete (**temporal** / **spatial** / **numerosity**) simulation based on the BCI model.
 
@@ -12,7 +12,7 @@ Navigate
 **Main Menu** ---> **Model Simulation** ---> **Simulating for Discrete Condition**
 
 Details
---------
+-------
 
 .. image:: sensory_simu.tif
 

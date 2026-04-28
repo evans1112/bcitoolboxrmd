@@ -1,5 +1,5 @@
 Other Settings
-~~~~~~~~~~
+==============
 
 Introduction
 ------------
@@ -33,4 +33,3 @@ Set up the parameters optimization methods.
 
 
 Suggestions: Users can use the Powell algorithm for faster fitting, more random seeds or the VBMC algorithm for more accurate results (which is **more time consuming**).
-

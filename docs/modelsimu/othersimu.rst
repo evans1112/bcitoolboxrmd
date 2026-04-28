@@ -1,8 +1,8 @@
 Specific Simulation (s)
-~~~~~~~~~~
+=======================
 
 Introduction
---------
+------------
 
 Users can use this simulation function for some specific cognitive tasks (numerosity task,...coming soon) based on the BCI model.
 
@@ -12,7 +12,7 @@ Navigate
 **Main Menu** ---> **Model Simulation** ---> **Simulating for numerosity task**
 
 Details
---------
+-------
 
 
 .. image:: othersimu.tif

@@ -1,47 +1,83 @@
-Graphical User Interface (GUI): Introduction
-=============
+Graphical User Interface
+========================
 
-Import and Call
+The BCI Toolbox GUI provides a complete no-code workflow for model fitting,
+simulation, visualization, and export. It is useful for rapid model checking,
+batch fitting across participant files, and communicating results with
+publication-ready figures.
+
+Launch
 ------
 
-.. code-block:: bash
+.. code-block:: python
 
-      import bcitoolbox as btb
+   import bcitoolbox as btb
+   btb.gui()
 
-.. code-block:: bash
+Main Workflows
+--------------
 
-      btb.gui()
+Model fitting
+   Import one or more CSV files, choose the fitting objective, select one or
+   more decision strategies, estimate parameters, inspect plots, and export
+   results.
 
+Model simulation
+   Enter parameter values and stimulus conditions to generate model-predicted
+   response distributions. The simulation tools are useful for understanding
+   how priors, likelihood variance, and causal-prior assumptions shape
+   behavior.
 
-`Model Fitting <https://bci-toolbox.readthedocs.io/en/latest/modelfit/index.html>`_
-------------------------
+Typical Analysis Workflow
+-------------------------
 
-The BCI Toolbox provides a variety of model fitting options, including **discrete data fitting** and **continuous data fitting**. It is structured to accommodate various stages of data analysis, from initial import to final visualization. 
+1. Prepare a CSV file with one row per trial.
+2. Open the GUI and select the relevant fitting module.
+3. Import one or more datasets.
+4. Set the simulation count. Use a smaller value, such as ``1000``, for a
+   quick pilot run and a larger value, such as ``10000``, for final fitting.
+5. Choose the objective function and decision strategies.
+6. Select free parameters and review bounds.
+7. Run fitting and inspect the output log.
+8. Plot the fitted model against behavioral data.
+9. Save figures, RDMs, predictions, or parameter summaries as needed.
 
-**Key Features:**
+Decision Strategies
+-------------------
 
-1. *Import/Open File*: This feature allows users to seamlessly upload behavioral data. The interface supports importing single or multiple .csv files, catering to a range of data set sizes and complexities.
+``ave``
+   Model averaging. The observer weights causal-structure-specific estimates
+   by the posterior probability of a common cause.
 
-2. *Settings*: Users can access a variety of settings to configure the data fitting process. This includes specifying the number of simulations, selecting fit types, and adjusting various parameters relevant to the behavioral data analysis.
+``sel``
+   Model selection. The observer uses the estimate from the most likely causal
+   structure.
 
-3. *Visualization*: Post-analysis, the interface offers robust visualization tools. Users can generate graphs and charts to better understand the fitted data.
+``mat``
+   Probability matching. The observer samples a causal structure according to
+   the posterior probability and responds from that structure.
 
-4. *RDM*: Post-analysis, the interface offers robust visualization tools. Users can generate model's RDMs based on the fitting results.
+Fitting Objectives
+------------------
 
-`Model Simulation <https://bci-toolbox.readthedocs.io/en/latest/modelsimu/index.html>`_
-----
+``mll``
+   Minus log likelihood. Recommended for discrete response distributions when
+   likelihood-based model comparison is desired.
 
-The BCI Toolbox allows users to engage in detailed simulations based on various model parameters, offering a comprehensive and interactive experience in understanding and analyzing sensory information. It provides a variety of options, including **1-D continuous simulation**, **2-D continuous simulation**, **discrete simulation** and other simulations for specific tasks.
+``mr2`` or ``minusr2``
+   Negative squared correlation between model and behavioral response
+   proportions.
 
-**Key Features:**
+``sse``
+   Sum of squared errors between model and behavioral response proportions.
 
-1. *Parameters*: Users can set essential parameters for the simulation model. These parameters are fundamental in shaping the behavior and outcomes.
+``emd``
+   Earth mover's distance, available for selected continuous workflows.
 
-2. *Elements*: The toolbox provides a visual representation of key simulation elements, including **Response Distribution**, **Stimulus Encoding**, and **Prior Distribution**, enhancing the understanding of the model simulation process.
+When to Use the 2D GUI
+----------------------
 
-3. *Strategies*: Users have the option to select from various strategies like **Model Averaging**, **Model Selection**, and **Probability Matching**, each offering a different approach to sensory simulation.
-
-
-
-
-
+Use :doc:`gui2d` when each trial contains two stimulus dimensions. For
+example, a flash-beep experiment may require both numerosity values and
+temporal offsets. The 2D GUI keeps these dimensions in one model instead of
+fitting separate one-dimensional analyses.

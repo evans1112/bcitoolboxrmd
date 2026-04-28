@@ -1,10 +1,13 @@
 Two-Dimensional Continuous Simulation
-~~~~~~~~~~
+=====================================
 
 Introduction
---------
+------------
 
-Users can use this function for two dimensional (**temporal** / **spatial** / **numerosity**) continuous simulation based on the BCI model.
+Use this tool to simulate BCI predictions when the stimulus contains two
+continuous dimensions, such as numerosity plus time or spatial location plus
+time. The newer integrated workflow is documented in
+:doc:`../basic_usage/gui2d`.
 
 Navigate
 --------
@@ -12,7 +15,7 @@ Navigate
 **Main Menu** ---> **Model Simulation** ---> **Simulating for 2-D Continuous Condition**
 
 Details
---------
+-------
 
 
 .. image:: 2Dsimu.tif
@@ -33,7 +36,7 @@ Details
 
 3/4. **Stimuli for each dimension**
 
-Users can set the true stimuli.
+Set the true stimulus value for each modality and each dimension.
 
 |
 
@@ -70,10 +73,10 @@ Users can set the true stimuli.
 
 **Simulate**
 
-Click the button to generate the simulated results.
+Click the button to generate the simulated response distribution.
 
 |
 
 **Save the simulated data**
 
-Click the button to save the simulated numerical data.
+Click the button to save the simulated numerical data for external analysis.
