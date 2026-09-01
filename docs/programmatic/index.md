@@ -89,6 +89,42 @@ btb.tutorial_path()         # or just find it
 It runs end to end on packaged and simulated data — no files of your own
 needed — and takes a couple of minutes.
 
+#### Open the tutorial step by step
+
+Create a clean analysis folder and virtual environment first:
+
+```bash
+mkdir my-bci-analysis
+cd my-bci-analysis
+
+# macOS / Linux
+python3 -m venv .venv
+source .venv/bin/activate
+
+# Windows PowerShell (use these two lines instead)
+# py -m venv .venv
+# .venv\Scripts\Activate.ps1
+```
+
+Install the toolbox and JupyterLab, copy the editable notebook out of the
+installed package, and open it:
+
+```bash
+python -m pip install "bcitoolbox==0.3.0" jupyterlab
+python -c "import bcitoolbox as btb; print(btb.copy_tutorial('.'))"
+python -m jupyterlab bcitoolbox_tutorial.ipynb
+```
+
+JupyterLab opens in the browser with `bcitoolbox_tutorial.ipynb`. If it asks
+for a kernel, select the Python interpreter from `.venv`, then choose
+**Run → Run All Cells**. The notebook contains its own packaged and simulated
+data, so no data file is required for the first run.
+
+If `bcitoolbox_tutorial.ipynb` already exists, open that copy directly. To
+replace it with a fresh copy from the installed package, first rename or remove
+the old file, or call `btb.copy_tutorial(".", overwrite=True)` after saving any
+work you want to keep.
+
 ### Verifying the installation
 
 ```bash
