@@ -33,22 +33,27 @@ What You Can Do
 
 * Fit behavioral datasets with discrete or continuous responses.
 * Compare model-averaging, model-selection, and probability-matching decision strategies.
-* Simulate one-dimensional and two-dimensional BCI predictions.
+* Build models with any number of modalities and one or more stimulus dimensions.
+* Fit individual participants or grouped datasets and export reproducible results.
+* Run parameter recovery, diagnostics, posterior-predictive checks, and model comparison.
 * Use the graphical interface for import, fitting, plotting, and export.
-* Use the Python API for reproducible scripts and advanced workflows.
+* Use the v0.3.0 Python API for reproducible scripts and advanced workflows.
 
 Recommended Reading Path
 ------------------------
 
-Start with :doc:`installation`, then open :doc:`basic_usage/gui` for the
-standard GUI. If your experiment contains two task dimensions, such as
-numerosity and time, continue with :doc:`basic_usage/gui2d`.
+To fit your own behavioral data from Python, start with the
+:doc:`programmatic/quickstart`. For the graphical workflow, open
+:doc:`installation` and then :doc:`basic_usage/gui`. If your experiment
+contains two task dimensions, such as numerosity and time, continue with
+:doc:`basic_usage/gui2d`.
 
 .. toctree::
    :maxdepth: 2
    :caption: User Guide
 
    installation
+   programmatic/index
    basic_usage/index
    modelfit/index
    modelsimu/index
