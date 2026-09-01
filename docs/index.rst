@@ -53,11 +53,11 @@ contains two task dimensions, such as numerosity and time, continue with
    :caption: User Guide
 
    installation
+   open_tutorial
    programmatic/index
    basic_usage/index
    modelfit/index
    modelsimu/index
-   API/index
 
 Citation
 --------

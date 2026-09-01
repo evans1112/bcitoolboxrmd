@@ -16,6 +16,7 @@ extensions = [
 # MyST lets those source files remain the single source of truth while still
 # participating in the Sphinx navigation and cross-page links.
 myst_heading_anchors = 4
+exclude_patterns = ['_includes/**']
 
 # -- Options for HTML output -------------------------------------------------
 

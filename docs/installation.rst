@@ -20,6 +20,11 @@ Then verify the installation:
    import bcitoolbox as btb
    print(btb.__name__)
 
+Open the Tutorial
+-----------------
+
+.. include:: _includes/open_tutorial_steps.rst
+
 Launching the GUI
 -----------------
 
